@@ -78,7 +78,7 @@ Bu projede çok fazla test bulunmamaktadır, üretim ortamında kullanırken dik
   <a href="https://t.me/TheKingOfTheGlory001">
     <img src="https://img.shields.io/badge/Telegram-@TheKingOfTheGlory001-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <a href="https://github.com/Sahmeranorg">
+  <a href="https://github.com/sahmeranjpg">
     <img src="https://img.shields.io/badge/GitHub-@Sahmeranorg-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
