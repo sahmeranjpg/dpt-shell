@@ -67,18 +67,24 @@ imzalama anahtar deposundan otomatik olarak hesaplanır.
 
 Bu projede çok fazla test bulunmamaktadır, üretim ortamında kullanırken dikkatli olun. Aksi takdirde, tüm sonuçlardan siz sorumlu olursunuz.
 
-## Bağımlılıklar veya kullanım, proje kodunu takip eder.
+## 🌐 Sosyal Medya
 
-- [dx](https://android.googlesource.com/platform/dalvik/+/refs/heads/master/dx/)
-- [Dobby](https://github.com/jmpews/Dobby)
-- ~~[libzip-android](https://github.com/julienr/libzip-android)~~
-- [ManifestEditor](https://github.com/WindySha/ManifestEditor)
-- ~~[Xpatch](https://github.com/WindySha/Xpatch)~~
-- [bhook](https://github.com/bytedance/bhook)
-- [zipalign-java](https://github.com/Iyxan23/zipalign-java)
-- [minizip-ng](https://github.com/zlib-ng/minizip-ng)
-- [JSON-java](https://github.com/stleary/JSON-java)
-- [zip4j](https://github.com/srikanth-lingala/zip4j)
-- [commons-cli](https://github.com/apache/commons-cli)
-- [dexmaker](https://android.googlesource.com/platform/external/dexmaker)
-- [Obfuscate](https://github.com/adamyaxley/Obfuscate)
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="500">
+</p>
+
+<p align="center">
+  <a href="https://instagram.com/sahmeranjpg">
+    <img src="https://img.shields.io/badge/Instagram-@sahmeranjpg-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="https://t.me/TheKingOfTheGlory001">
+    <img src="https://img.shields.io/badge/Telegram-@TheKingOfTheGlory001-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+  <a href="https://github.com/Sahmeranorg">
+    <img src="https://img.shields.io/badge/GitHub-@Sahmeranorg-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <b>📱 Beni sosyal medyada takip etmeyi unutma!</b>
+</p>
