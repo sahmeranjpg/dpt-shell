@@ -9,7 +9,7 @@ dpt-shell, Android Dex metot uygulamalarını boşaltıp çalışma zamanında y
 
 ### Hızlı kullanım
 
-[Sürümler](https://github.com/Sahmeranorg/dpt-shell/releases/latest) adresine gidin, `en son sürüm olan zip` dosyasını indirin ve açın, terminalde aşağıdaki komut satırlarını çalıştırın:
+[Sürümler](https://github.com/sahmeranjpg/dpt-shell/releases/latest) adresine gidin, `en son sürüm olan zip` dosyasını indirin ve açın, terminalde aşağıdaki komut satırlarını çalıştırın:
 
 ```shell
 java -jar dpt.jar -f /path/to/android-package-file
@@ -79,7 +79,7 @@ Bu projede çok fazla test bulunmamaktadır, üretim ortamında kullanırken dik
     <img src="https://img.shields.io/badge/Telegram-@TheKingOfTheGlory001-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
   <a href="https://github.com/sahmeranjpg">
-    <img src="https://img.shields.io/badge/GitHub-@Sahmeranorg-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-@sahmeranjpg-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
