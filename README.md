@@ -4,20 +4,19 @@
 
 English | [简体中文](./README.zh-CN.md) 
 
-dpt-shell is an Android Dex protection shell that hollows out Dex method implementations and reconstructs them at runtime.
+dpt-shell, Android Dex metot uygulamalarını boşaltıp çalışma zamanında yeniden oluşturan bir Android Dex koruma kabuğudur.
 
-## Usage
+## Kullanım
 
-### Quick uses
+### Hızlı kullanım
 
-Go to [Releases](https://github.com/luoyesiqiu/dpt-shell/releases/latest) download `executable.zip` and unzip it, run the follow command lines in terminal: 
+[Sürümler](https://github.com/luoyesiqiu/dpt-shell/releases/latest) adresine gidin, `executable.zip` dosyasını indirin ve açın, terminalde aşağıdaki komut satırlarını çalıştırın:
 
 ```shell
 java -jar dpt.jar -f /path/to/android-package-file
 ```
 
-### Manual builds
-
+### Manuel derlemeler
 ```shell
 git clone --recursive https://github.com/luoyesiqiu/dpt-shell
 cd dpt-shell
@@ -26,53 +25,50 @@ cd executable
 java -jar dpt.jar -f /path/to/android-package-file
 ```
 
-### Command line options
+### Komut satırı seçenekleri
 
 ```text
 usage: java -jar dpt.jar [option] -f <package_file>
  -c,--protect-config <arg>   Protect config file.
                              
-    --debug                  Make package debuggable.
-    --disable-acf            Disable app component factory(just use for
-                             debug).
-    --disable-anti-debug     Disable runtime anti-debug.
-    --disable-crc-detect     Disable runtime libc .text CRC detection.
+    --debug                 Paketi hata ayıklanabilir hale getirin.
+    --disable-acf            Uygulama bileşeni fabrikasını devre dışı bırakın (sadece hata ayıklama için kullanın).
+    --disable-anti-debug     Çalışma zamanı hata ayıklama önleme özelliğini devre dışı bırakın.
+    --disable-crc-detect     Çalışma zamanında libc .text CRC tespitini devre dışı bırakın.
                              
-    --disable-frida-detect   Disable runtime Frida detection.
+    --disable-frida-detect   Çalışma zamanında Frida algılamasını devre dışı bırakın.
                              
-    --dump-code              Dump the code item of DEX and save it to
-                             .json files.
- -e,--exclude-abi <arg>      Exclude specific ABIs (comma separated, e.g.
-                             x86,x86_64).
-                             Supported ABIs:
+    --dump-code              DEX kodunun içeriğini çıkarın ve .json dosyalarına kaydedin.
+.json dosyalarına kaydedin.
+ -e,--exclude-abi <arg>     Belirli ABI'leri hariç tutun (virgülle ayrılmış, örneğin:
+x86,x86_64).
+                            Desteklenen ABI'ler:
                              - arm       (armeabi-v7a)
                              - arm64     (arm64-v8a)
                              - x86
                              - x86_64
- -f,--package-file <arg>     Need to protect android package(*.apk, *.aab)
-                             file.
- -K,--keep-classes           Keeping some classes in the package can
-                             improve the app's startup speed to a certain
-                             extent, but it is not supported by some
-                             application packages.
-    --noisy-log              Open noisy log.
- -o,--output <arg>           Output directory for protected package.
- -r,--rules-file <arg>       Rules file for class names that will not be
-                             protected.
- -S,--smaller                Trade some of the app's performance for a
-                             smaller app size.
- -v,--version                Show program's version number.
- -vs,--verify-sign           Enable runtime app signature verification.
-                             The certificate SHA-256 is computed
-                             automatically from the signing keystore.
- -x,--no-sign                Do not sign package.
+ -f,--package-file <arg>     Android paket dosyalarını (*.apk, *.aab) korumak gerekiyor.
+ -K,--keep-classes           Bazı sınıfları paket içinde tutmak,
+uygulamanın başlatma hızını belirli bir ölçüde iyileştirebilir,
+ancak bazı uygulama paketleri bunu desteklemez.
+    --noisy-log              Gürültülü günlüğü açın.
+ -o,--output <arg>           Korunan paketin çıktı dizini.
+ -r,--rules-file <arg>       Korunmayacak sınıf adları için kurallar dosyası.
+ -S,--smaller                Uygulamanın performansından biraz ödün vererek,
+daha küçük bir uygulama boyutu elde edin.
+ -v,--version                Programın sürüm numarasını göster.
+ -vs,--verify-sign           Çalışma zamanı uygulama imza doğrulamasını etkinleştirin.
+
+Sertifikanın SHA-256 değeri,
+imzalama anahtar deposundan otomatik olarak hesaplanır.
+ -x,--no-sign               Paketi imzalamayın.
 ```
 
-## Notice
+## Uyarı
 
-This project has not too many tests, be careful use in prod environment. Otherwise, all consequences are at your own risk.
+Bu projede çok fazla test bulunmamaktadır, üretim ortamında kullanırken dikkatli olun. Aksi takdirde, tüm sonuçlardan siz sorumlu olursunuz.
 
-## Dependency or use follows project code
+## Bağımlılıklar veya kullanım, proje kodunu takip eder.
 
 - [dx](https://android.googlesource.com/platform/dalvik/+/refs/heads/master/dx/)
 - [Dobby](https://github.com/jmpews/Dobby)
