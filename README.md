@@ -2,7 +2,6 @@
 
 [![](https://img.shields.io/github/license/luoyesiqiu/dpt-shell)](https://github.com/luoyesiqiu/dpt-shell/blob/main/LICENSE) [![](https://img.shields.io/github/downloads/luoyesiqiu/dpt-shell/total?color=blue)](https://github.com/luoyesiqiu/dpt-shell/releases/latest) [![](https://img.shields.io/github/issues-raw/luoyesiqiu/dpt-shell?color=red)](https://github.com/luoyesiqiu/dpt-shell/issues) ![](https://img.shields.io/badge/Android-5.0%2B-brightgreen)
 
-English | [简体中文](./README.zh-CN.md) 
 
 dpt-shell, Android Dex metot uygulamalarını boşaltıp çalışma zamanında yeniden oluşturan bir Android Dex koruma kabuğudur.
 
