@@ -9,7 +9,7 @@ dpt-shell, Android Dex metot uygulamalarını boşaltıp çalışma zamanında y
 
 ### Hızlı kullanım
 
-[Sürümler](https://github.com/luoyesiqiu/dpt-shell/releases/latest) adresine gidin, `executable.zip` dosyasını indirin ve açın, terminalde aşağıdaki komut satırlarını çalıştırın:
+[Sürümler](https://github.com/Sahmeranorg/dpt-shell/releases/latest) adresine gidin, `en son sürüm olan zip` dosyasını indirin ve açın, terminalde aşağıdaki komut satırlarını çalıştırın:
 
 ```shell
 java -jar dpt.jar -f /path/to/android-package-file
