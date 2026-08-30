@@ -69,9 +69,7 @@ Bu projede çok fazla test bulunmamaktadır, üretim ortamında kullanırken dik
 
 ## 🌐 Sosyal Medya
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="500">
-</p>
+<p align="center">   <img src="https://media1.tenor.com/m/5YoPo06bj6cAAAAC/nas%C4%B1l-ho%C5%9Funa-gidiyor-bakhele.gif" width="500"> </p>
 
 <p align="center">
   <a href="https://instagram.com/sahmeranjpg">
